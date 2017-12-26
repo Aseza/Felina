@@ -13,7 +13,8 @@ The server takes in a word, it would either add it to a Dictionary Collection, r
 If you hit "Send" without any words, you'll get a list of all phrases available in the collection.
 
 ### How to run it
-I've already included the WAR file, so, you already know how it's done.
-
+Make sure you have an active internet connection for Icons to load properly.
+I've already included the WAR file, so, you already know how it's done.<br/>
+#### ANY FEEDBACK IS HIGHLY APPRECIATED
 
 
