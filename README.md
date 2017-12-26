@@ -11,11 +11,12 @@ I've  made a prototype of the Angular 4 app (Angular4Demo.jpg), then gave up 30m
 The API was created using the `@ResponseBody` annotation to generate JSON-like syntax to be interpreted by Angular directives.
 The server takes in a word, it would either add it to a Dictionary Collection, remove it from it,  or search for alikes, you choose !<br/>
 If you hit "Send" without any words, you'll get a list of all phrases available in the collection.
+I intentionally omitted Exception handling as I felt there is no need.
 
 ### How to run it
 Please import it on Intellij, I don't know what it is with Eclipse, but it's going crazy.<br/>
 Make sure you have an active internet connection for Icons to load properly.
-I've already included the WAR file, so, you already know how it's done.<br/>
+Then just run it as a Spring Boot app.<br/>
 #### ANY FEEDBACK IS HIGHLY APPRECIATED
 
 
