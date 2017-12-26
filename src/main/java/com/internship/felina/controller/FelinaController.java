@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
+//Simple Controller representing all possible routes
+
 @Controller
 public class FelinaController {
     Dictionary dict = new Dictionary();

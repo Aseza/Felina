@@ -25,14 +25,14 @@
     <link href="<c:url value="css/style.css" />" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body>
+<body ng-app="felinaApp" ng-controller="Controller">
 <nav class="transparent z-depth-2" role="navigation">
     <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="black-text light brand-logo">
             <i class="material-icons">add_shopping_cart</i>Felina</a>
         <ul class="right hide-on-med-and-down">
             <li>
-                <a class="black-text active" href="#">in Angular 4
+                <a ng-click="soon()" class="black-text active" href="#">in Angular 4
                     <span class="new badge red " data-badge-caption="Coming Soon"></span>
                 </a>
             </li>
@@ -67,7 +67,7 @@
         <img src="pics/wallpaper.jpg"/>
     </div>
 </div>
-<div class="container" ng-app="felinaApp" ng-controller="Controller">
+<div class="container" >
     <div class="section">
         <div class="row center">
             <div class="col s12 m6 offset-m3">
@@ -128,19 +128,16 @@
             <div class="col l6 s12">
                 <h5 class="black-text">Notes I shall add</h5>
                 <p class="black-text">This project is a result of the solo work i have accomplished without following any given tutorial nor using any
-                    given template</p>
+                    given template, I'm pressured by time, because i can do a lot better than this :) </p>
             </div>
             <div class="col l3 s12 push-l2 push-m2">
                 <h5 class="black-text">Connect With Me</h5>
                 <ul>
                     <li>
-                        <a class="waves-effect waves-light indigo darken-4 btn-floating  ">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a class="waves-effect waves-light grey darken-2 btn-floating ">
+                        <a  target="_blank" href="https://github.com/aseza" class="waves-effect waves-light grey darken-2 btn-floating ">
                             <i class="fa fa-github"></i>
                         </a>
-                        <a class="waves-effect waves-light blue darken-3 btn-floating ">
+                        <a  target="_blank" href="https://www.linkedin.com/in/abdelilah-ouchani-3755a4137/" class="waves-effect waves-light blue darken-3 btn-floating ">
                             <i class="fa fa-linkedin"></i>
                         </a>
                     </li>

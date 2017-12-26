@@ -23,7 +23,8 @@ angular.module("felinaApp", []).controller("Controller", function ($scope,$http)
       method: 'GET',
       url: 'http://localhost:8080/getFromDictionary/'+$scope.word+'&&'+ $scope.isCaseSensitive
     }).then(function successCallback(response) {
-      $scope.result = response.data;    
+      $scope.result = response.data;
+      if($scope.result.length==0) Materialize.toast('Item non existent',1000);
       $scope.gotResult = true;
     });
   };
@@ -33,7 +34,7 @@ angular.module("felinaApp", []).controller("Controller", function ($scope,$http)
       method: 'GET',
       url: 'http://localhost:8080/addToDictionary/'+$scope.word
     }).then(function successCallback(response) {
-      if(response.data==true) Materialize.toast('Phrase added!', 1000,'rounded') ;
+      if(response.data) Materialize.toast('Phrase added!', 1000,'rounded') ;
       else Materialize.toast('Phrase already exists on \'Database\'!', 1000,'rounded')
     }, function errorCallback(response) {
       Materialize.toast('Please Enter a Phrase!', 1000) ;
@@ -52,6 +53,9 @@ angular.module("felinaApp", []).controller("Controller", function ($scope,$http)
     });
   }
 
+    $scope.soon = function(value){
+        Materialize.toast('Soon :) ..', 1500, 'rounded');
+    }
 
 
 });
