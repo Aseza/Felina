@@ -17,7 +17,7 @@ I intentionally omitted Exception handling as I felt there is no need.
 Please import it on Intellij, I don't know what it is with Eclipse, but it's going crazy.<br/>
 Make sure you have an active internet connection for Icons to load properly.
 Then just run it as a Spring Boot app.<br/>
-### I have tested the app in many ways, many resolutions however, If you face any issue, please let me know :)<br/>
+#### I have tested the app in many ways, many resolutions, however, If you face any issue, please let me know :)<br/>
 #### ANY FEEDBACK IS HIGHLY APPRECIATED
 
 
