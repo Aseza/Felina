@@ -11,7 +11,7 @@ I've  made a prototype of the Angular 4 app (Angular4Demo.jpg), then gave up 30m
 The API was created using the `@ResponseBody` annotation to generate JSON-like syntax to be interpreted by Angular directives.
 The server takes in a word, it would either add it to a Dictionary Collection, remove it from it,  or search for alikes, you choose !<br/>
 If you hit "Send" without any words, you'll get a list of all phrases available in the collection.<br/>
-I intentionally omitted Exception handling as I felt there is no need.
+I intentionally omitted Exception handling as I felt no need to it.
 
 ### How to run it
 Please Stay away from Eclipse, I don't know what it is with it, but it's going crazy.<br/>
