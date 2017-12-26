@@ -14,7 +14,8 @@ If you hit "Send" without any words, you'll get a list of all phrases available 
 I intentionally omitted Exception handling as I felt there is no need.
 
 ### How to run it
-Please import it on Intellij, I don't know what it is with Eclipse, but it's going crazy.<br/>
+Please Stay away from Eclipse, I don't know what it is with it, but it's going crazy.<br/>
+Anyway, head to main Felina folder, open cmd, and execute `mvn spring-boot:run` then head to http://xxxxx:xxxx/home :) </br>
 Make sure you have an active internet connection for Icons to load properly.
 Then just run it as a Spring Boot app.<br/>
 #### I have tested the app in many ways, many resolutions, however, If you face any issue, please let me know :)<br/>
