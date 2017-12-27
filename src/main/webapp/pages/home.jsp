@@ -29,7 +29,7 @@
 <nav class="transparent z-depth-2" role="navigation">
     <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="black-text light brand-logo">
-            <i class="material-icons">add_shopping_cart</i>Felina</a>
+            <i class="material-icons">library_books</i>Felina</a>
         <ul class="right hide-on-med-and-down">
             <li>
                 <a ng-click="soon()" class="black-text active" href="#">in Angular 4
